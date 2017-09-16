@@ -1,0 +1,23 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		xmlns:form="sap.ui.layout.form"
+		controllerName="view.RegistrationLink" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Registration Details">
+		<content>
+	          <form:SimpleForm>
+	               <Label text="Name"/>
+	               <Text text="Devender"/>
+	               <Label text="Department"/>
+	               <Text text="SAP"/>
+	               <Label text="Role"/>
+	               <Text text="Developer"/>
+	          </form:SimpleForm>
+		</content>
+		<footer>
+		   <Bar>
+		     <contentLeft>
+		        <Button text="Next" icon="sap-icon://sys-next-page"/>
+		     </contentLeft>
+		   </Bar>
+		</footer>
+	</Page>
+</core:View>
